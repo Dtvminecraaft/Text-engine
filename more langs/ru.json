@@ -1,0 +1,68 @@
+{
+    "language_name": "Русский",
+
+    "emulator_title": "=== TXR ИГРОВАЯ СИСТЕМА ===",
+    "only_txr": "Система работает только с файлами .txr",
+    "enter_help": "Введите 'help' для списка команд",
+    "enter_list": "Введите 'list' для просмотра доступных .txr файлов",
+    "enter_command": "\n> ",
+    "current_lang": "Текущий язык: {}",
+
+    "help_title": "help - открыть страницу помощи",
+    "run_cmd": "run [filename.txr] - запустить файл игры, например: run game1.txr",
+    "say_cmd": "say(text, name, delay) - персонаж говорит с задержкой (секунды)",
+    "fight_cmd": "fight(hp, damage, name) - начать бой с противником",
+    "player_cmd": "player(hp, damage) - установить параметры игрока",
+    "player_add_cmd": "player(add hp, add damage) - изменить параметры игрока",
+    "select_cmd": "select(option1, option2, ...) - выбор из нескольких вариантов",
+    "lang_cmd": "lang [code] - переключить язык",
+    "available_languages": "Доступные языки: {}",
+
+    "fight_title": "=== БОЙ С {} ===",
+    "enemy_stats": "Противник: {} урона, {} HP",
+    "player_stats": "Игрок: {} урона, {} HP",
+    "player_turn": "--- Ход игрока ---",
+    "attack_option": "1. Атаковать",
+    "block_option": "2. Заблокировать",
+    "choose_action": "Выберите действие (1-2): ",
+    "player_attacked": "Вы атаковали {} и нанесли {} урона!",
+    "enemy_attacked": "{} атаковал вас и нанес {} урона!",
+    "blocked_attack": "Вы атаковали {}, но он заблокировал часть урона!",
+    "damage_dealt": "Нанесено {} урона!",
+    "enemy_blocked": "{} атаковал, но вы заблокировали часть урона!",
+    "damage_taken": "Получено {} урона!",
+    "both_blocked": "Оба противника приготовились к защите!",    "enemy_hp": "{}: {} HP",
+    "player_hp": "Игрок: {} HP",
+    "victory": "ПОБЕДА! Вы победили {}!",
+    "defeat": "ПОРАЖЕНИЕ! {} победил вас!",
+
+    "choice_title": "--- ВЫБОР ---",
+    "choose_option": "Выберите вариант (1-{}): ",
+    "chosen_option": "Вы выбрали: {}",
+    "enter_number": "Пожалуйста, введите число",
+    "number_range": "Пожалуйста, введите число от 1 до {}",
+    "select_min_options": "Ошибка: select должен иметь минимум 2 варианта",
+
+    "dialogue_format": "{} сказал(а): {}",
+
+    "invalid_file_ext": "Ошибка: файл '{}' должен иметь расширение .txr",
+    "example_usage": "Пример: run game1.txr",
+    "file_not_found": "Ошибка: файл '{}' не найден в директории 'games'",
+    "file_lookup": "Искали файл по пути: {}",
+    "sys_prefix_removed": "Префикс sys:// удален",
+    "use_run_cmd": "Используйте команду 'run' для запуска файла",
+    "available_files": "Доступные .txr файлы в директории 'games':",
+    "no_txr_files": "(нет .txr файлов в директории 'games')",
+    "no_games_found": "Файлы игр не найдены. Поместите .txr файлы в директорию 'games'.",
+
+    "unknown_cmd": "Неизвестная команда: {}",
+    "available_cmds": "Доступные команды: help, run, list, test, lang",
+    "error": "Ошибка: {}",
+
+    "test_params": "Текущие параметры: HP={}, Damage={}",
+    "emulator_shutdown": "Эмулятор завершает работу...",
+    "help_page": "Номер страницы (1-2): ",
+
+    "lang_changed": "Язык изменен на: {}",
+    "invalid_lang": "Неверный код языка. Доступные языки: {}"
+}
