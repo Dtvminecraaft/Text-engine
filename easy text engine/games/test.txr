@@ -1,0 +1,11 @@
+player(50,100)
+say(hello world!, system,2)
+fight(1,1,system)
+select(add 5 hp, add 10 hp, add 100 hp)
+    1:
+    player(add 5,add 0)
+    2:
+    player(add 10, add 0)
+    3:
+    player(add 100, add 0)
+fight(15, 13, dragon)
